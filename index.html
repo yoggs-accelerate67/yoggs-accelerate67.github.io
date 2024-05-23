@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
   <link href="node_modules/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body ng-app="ngClassifieds" ng-controller="classifiedsController">
@@ -14,19 +13,15 @@
   <md-toolbar md-scroll-shrink>
     <div class="md-toolbar-tools">
       <h3>{{ message }}</h3>
-
       <p><strong>RenewedGadgets</strong></p>
-
       <md-button ng-click="openSidebar()">
         <md-icon class="mdi mdi-plus-circle"></md-icon>
         New Gadget
       </md-button>
-
       <md-button ng-click="showFilters = !showFilters">
         <md-icon class="mdi mdi-magnify"></md-icon>
         Filters
       </md-button>
-
     </div>
   </md-toolbar>
 
@@ -35,7 +30,6 @@
       <label>Enter a Search Term</label>
       <input ng-model="classifiedsFilter" type="text">
     </md-input-container>
-
     <md-input-container>
       <label>Category</label>
       <md-select ng-model="category">
@@ -44,13 +38,11 @@
         </md-option>
       </md-select>
     </md-input-container>
-
     <div layout="row">
       <md-button ng-click="classifiedsFilter = '';category=''" class="md-warn">
         Clear
       </md-button>
     </div>
-
   </div>
 
   <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
@@ -100,31 +92,25 @@
           <h3>{{ classified.price | currency }}</h3>
           <p>{{ classified.description }}</p>
         </div>
-
         <div class="classified-contact" ng-show="showContact">
           <p><md-icon class="mdi mdi-account"></md-icon> {{ classified.contact.name }}</p>
           <p><md-icon class="mdi mdi-phone"></md-icon> {{ classified.contact.phone }}</p>
           <p><md-icon class="mdi mdi-email"></md-icon> {{ classified.contact.email }}</p>
         </div>
-
         <div layout="row">
           <md-button ng-click="showContact = true" ng-show="!showContact">
             Contact
           </md-button>
-
           <md-button ng-click="showContact = false" ng-show="showContact">
             Details
           </md-button>
-
           <md-button ng-click="showAdmin = true" ng-show="!showAdmin">
             Admin
           </md-button>
-
           <md-button ng-click="showAdmin = false" ng-show="showAdmin">
             Close
           </md-button>
         </div>
-
         <div class="classified-admin" ng-if="showAdmin">
           <h3>Admin</h3>
           <div layout="row">
@@ -136,15 +122,14 @@
             </md-button>
           </div>
         </div>
-
       </md-card-content>
     </md-card>
   </md-content>
 
   <script src="node_modules/angular/angular.js"></script>
-  <script src="node_modules/angular-material/angular-material.js"></script>
   <script src="node_modules/angular-animate/angular-animate.js"></script>
   <script src="node_modules/angular-aria/angular-aria.js"></script>
+  <script src="node_modules/angular-material/angular-material.js"></script>
   <script src="scripts/app.js"></script>
   <script src="components/classifieds/classifieds.ctr.js"></script>
   <script src="components/classifieds/classifieds.fac.js"></script>
@@ -153,3 +138,4 @@
 </body>
 
 </html>
+
