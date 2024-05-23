@@ -1,0 +1,140 @@
+[
+  {
+    "id":"1",
+    "title":"Google Pixel 3a 4/64GB",
+    "description":"- 14.22 cm (5.6 inch) Full HD+ Display- 12.2MP Rear Camera | 8MP Front Camera- 3000 mAh Battery - Qualcomm Snapdragon 670 Processor- eSIM Compatible",
+    "price":100,
+    "posted":"2015-10-24",
+    "contact": {
+      "name":"John Doe",
+      "phone":"(555) 555-5555",
+      "email":"johndoe@gmail.com"
+    },
+    "categories":[
+      "Phone"
+    ],
+    "image": "https://www.sahivalue.com/product-images/Attachments_20231208051121533+%281%29.jpg/293890000034297971/600x600",
+    "views":213
+  },
+  {
+    "id":"3",
+    "title":"Samsung Galaxy S24 5G 8/256GB",
+    "description":"Highlights - 94.4 cm (6.2 inch) Dynamic LTPO AMOLED 2X Display - Qualcomm SM8650-AC Snapdragon 8 Gen 3 (4 nm) - USA/Canada/ChinaExynos 2400 (4 nm) - International - 4000 mAh Lithium Ion Battery - 50MP + 10MP + 12MP Rear Camera - 12MP Front Camera",
+    "price":50,
+    "posted":"2015-10-27",
+    "contact": {
+      "name":"Alice Johnson",
+      "phone":"(123) 456-7890",
+      "email":" alicejohnson@example.com"
+    },
+    "categories":[
+      "Phone"
+    ],
+    "image":"https://www.sahivalue.com/product-images/1.jpg/293890000036290850/400x400",
+    "views":23
+  },
+  {
+    "id":"5",
+    "title":"Apple iPad 9 2021 10.2 inch 64GB Wi-Fi",
+    "description":"The device boasts a 10.2-inch Retina display, delivering crisp visuals. Powered by the Apple A13 Bionic Processor, it ensures smooth performance. Its 8557 mAh battery offers long-lasting usage. Featuring an 8 MP rear camera and a 12 MP front camera, it captures clear and detailed photos, making it a versatile choice for various tasks",
+    "price":300,
+    "posted":"2015-11-02",
+    "contact": {
+      "name":"Robert Miller",
+      "phone":"(987) 654-3210",
+      "email":"robertmiller@example.com"
+    },
+    "categories":[
+      "Tablet"
+    ],
+    "image":"https://www.sahivalue.com/product-images/Image_2809_050022.jpg/293890000017191597/400x400",
+    "views":889
+  },
+  {
+    "id":"4",
+    "title":"Samsung Galaxy Tab S7 Plus 12.4 inch 6/128GB Wi-Fi",
+    "description":"The Samsung Galaxy Tab S7 Plus is a premium 12.4-inch Android tablet with a vivid Super AMOLED display. It offers 6GB RAM, 128GB storage, and Wi-Fi connectivity for efficient multitasking and online activities. With S Pen support and optional keyboard accessories, it provides a versatile and immersive experience for both productivity and entertainment. 6 Months Sahivalue Warranty. Brand New. Suitable for gifting. Samsung Keyboard available for extra",
+    "price":250,
+    "posted":"2015-11-01",
+    "contact": {
+      "name":"Emily Davis",
+      "phone":"(111) 222-3333",
+      "email":"emilydavis@example.com"
+    },
+    "categories":[
+      "Tablet"
+    ],
+    "image":"https://www.sahivalue.com/product-images/Image_0310_123936.jpg/293890000032680365/600x600",
+    "views":77
+  },
+  
+  {
+    "id":"6",
+    "title":"Apple Watch Ultra 2 49mm GPS Cellular Titanium Case",
+    "description":"The Apple Watch Ultra 2, with a 49mm titanium case, combines style and functionality. Equipped with GPS and cellular capabilities, it offers seamless connectivity. The sleek design complements its advanced features, making it a versatile accessory for fitness tracking, notifications, and more, ensuring a premium experience for users on the go.",
+    "price":800,
+    "posted":"2015-11-03",
+    "contact": {
+      "name":"Daniel White",
+      "phone":"(444) 555-6666",
+      "email":"danielwhite@example.com"
+    },
+    "categories":[
+      "Watches"
+    ],
+    "image":"https://www.sahivalue.com/product-images/WhatsApp+Image+2024-01-06+at+4.47.54+PM.jpeg/293890000035689276/600x600",
+    "views":423
+  },
+  {
+    "id":"7",
+    "title":"Samsung Galaxy Watch 4 Classic 46mm LTE",
+    "description":"The Samsung Galaxy Watch 4 Classic in 46mm LTE variant combines style and functionality. With a large 46mm display, it offers a premium visual experience. Its LTE connectivity ensures independence from a smartphone, allowing calls and notifications on the go. Packed with fitness and health tracking features, it's a comprehensive smartwatch for active lifestyles.",
+    "price":9.23,
+    "posted":"2015-11-05",
+    "contact": {
+      "name":"Jane Smith",
+      "phone":"(555) 123-4567",
+      "email":"janesmith@example.com"
+    },
+    "categories":[
+      "Watches"
+    ],
+    "image":"https://www.sahivalue.com/product-images/WhatsApp+Image+2022-12-05+at+12.38.32+PM+%289%29.jpeg/293890000035137213/600x600",
+    "views":312
+  },
+  
+  {
+    "id":"8",
+    "title":"Apple Macbook Pro i7 2015 15-inch 16/512GB A1398",
+    "description":"The Apple MacBook Pro i7 (2015) 15-inch model, identified as A1398, features a powerful Intel Core i7 processor. With 16GB of RAM and a spacious 512GB SSD, it delivers robust performance and ample storage. The 15-inch Retina display enhances visual clarity, making it suitable for demanding tasks.",
+    "price":437.5,
+    "posted":"2024-02-26",
+    "contact": {
+      "name":"Olivia Turner",
+      "phone":"(777) 888-9999",
+      "email":"oliviaturner@example.com"
+    },
+    "categories":[
+      "Laptop"
+    ],
+    "image":"https://www.sahivalue.com/product-images/WhatsApp+Image+2022-12-02+at+12.46.38+PM.jpeg/293890000019171671/600x600",
+    "views":127
+  },
+  {
+    "id":"9",
+    "title":"Dell Latitude 3490 Intel Core i5 8th Gen 14 inch Laptop 16GB RAM 1TB HDD",
+    "description":"The Dell Latitude 3490 is a 14-inch laptop powered by an Intel Core i5 8th Gen processor, offering reliable performance. With 16GB of RAM, it facilitates smooth multitasking, while the 1TB HDD provides ample storage space for files and applications. This laptop is designed for productivity, combining performance and storage capacity in a portable form factor.",
+    "price":562.5,
+    "posted":"2024-02-26",
+    "contact": {
+      "name":"Michael Brown",
+      "phone":"(555) 444-3333",
+      "email":"michaelbrown@example.com"
+    },
+    "categories":[
+      "Laptop"
+    ],
+    "image":"https://www.sahivalue.com/product-images/Attachments_20231118110114531+%281%29.jpg/293890000033445139/600x600",
+    "views":127
+  }
+]
