@@ -5,11 +5,13 @@
   "main": "index.js",
   "author": "Ryan Chenkie",
   "license": "MIT",
-  "dependencies": {
-    "angular": "^1.5.0",
-    "angular-animate": "^1.5.0",
-    "angular-aria": "^1.5.0",
-    "angular-material": "^0.11.4",
-    "mdi": "^1.4.57"
-  }
+"dependencies": {
+  "angular": "~17.3.9", 
+  "angular-animate": "~18.0.0",
+  "angular-aria": "~1.8.3",
+  "angular-material": "~18.0.0", 
+  "mdi": "~latest"
 }
+
+}
+
